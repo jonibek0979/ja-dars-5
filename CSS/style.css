@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+
+}
+
+.header {
+    height: 955px;
+    /* background-image: url('https://storage.kun.uz/source/uploads/20190104/2874088087101.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background: #000;
+    padding-top: 50px;
+    /* opacity: 0.9; */
+}
+
+.title {
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border: 1px solid #bb0404;
+    border-radius: 20px;
+    color: blue;
+    font-size: 25px;
+    background-image: linear-gradient(-90deg, red, purple);
+    margin-top: 30px;
+}
+
+.btn__2 {
+    width: 130px;
+    height: 42px;
+    display: block;
+    padding: 5px 40px;
+    border-radius: 20px;
+    color: #000;
+    font-size: 25px;
+    background: #fff;
+    border: none;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.btn__3 {
+    display: block;
+    padding: 5px 40px;
+    color: #fff;
+    font-size: 25px;
+    background: #000;
+    border: none;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.mainn {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url('https://storage.kun.uz/source/4/r1iW5eP3yxtS9cgLUFl1NMIrs_9dDhjT.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border: 1px solid #5357c9;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url('https://kalix.club/uploads/posts/2022-12/1671545150_kalix-club-p-tor-oboi-vkontakte-1.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border: 1px solid #5357c9;
+    border-radius: 50%;
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 800px;
+}
+
+.list__item {
+    margin-left: 20px;
+}
+
+.list__item:nth-child(1) a {
+    display: block;
+    width: 80px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(180deg, rgb(42, 255, 14), rgb(248, 204, 30));
+    color: #fff;
+}
+
+.list__item:nth-child(2) a {
+    display: block;
+    width: 80px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(180deg, rgb(47, 13, 196), rgb(151, 11, 16));
+    box-shadow: #000 10px;
+}
+
+.list__item:nth-child(3) a {
+    display: block;
+    width: 80px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(-180deg, rgb(0, 0, 0), rgb(1, 32, 1));
+    box-shadow: #000 10px;
+}
